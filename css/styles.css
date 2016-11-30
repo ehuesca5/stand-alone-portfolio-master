@@ -11,9 +11,12 @@ header {
 
 }
 .ttop {
-    width: 480px;
+    width: 450px;
     
-    height: 300px
+    height: 300px;
+}
+img {
+    width: 250px
 }
 
 
