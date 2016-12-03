@@ -9,6 +9,13 @@ header {
   justify-content: center;
 
 }
+header img {
+    display: block;
+    object-fit: cover;
+    background: rgba(0,0,0,.5);
+    padding: .7em;
+    
+}
 #slideshow img{
 position: absolute;
 left: 0;
@@ -38,6 +45,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
   margin-top: 300px;
   align-items: center;
 }
@@ -45,17 +53,20 @@ body {
 figure {
   background-color: rgba(0,0,0,.35) ;
   
-  display: ;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1em;
-  width: 20em;
+  box-sizing: border-box;
+    width: 800px;
   
-  margin: 50px 400px;
-  margin-top: 150px;    
+ 
+  margin-top: 200px;    
 }
 img {
-    width: 250px
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid red;
 }
 a {
     padding: .5em
@@ -68,21 +79,32 @@ h1 {
     font-size: 7em;
     color: white; 
     font-family: 'Aref Ruqaa', serif;
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 120px
  
 }
+h3 {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 4em;
+    margin-top: 140px;
+    margin-bottom:200px;
+    color: white;
+}
 figcaption {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Aref Ruqaa', serif;
+    word-spacing: 6px;
 }
 .lg-backdrop {
-    background: rgba(255,255,255,1);
+    background: rgba(0,0,0,.8);
 }
 
 .lg-image {
     box-shadow: 0 0 30px #333;
+}
+.lg-toolbar.group {
+    background: rgba(179,3,3,.6)
 }
 
 
