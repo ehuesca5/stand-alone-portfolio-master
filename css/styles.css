@@ -9,10 +9,17 @@ header {
   justify-content: center;
 
 }
+#slideshow img{
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+    
 
-h1 {
-    color: white;
+    width: 60%;
+    height: 60%;
 }
+
 
 body {
        background: url("https://github.com/ehuesca5/stand-alone-portfolio-master/blob/gh-pages/img/background.jpg?raw=true");
@@ -31,16 +38,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 300px;
+  align-items: center;
 }
 
 figure {
-  background: ;
+  background-color: rgba(0,0,0,.35) ;
+  
   display: ;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1em;
   width: 20em;
+  
   margin: 50px 400px;
+  margin-top: 150px;    
 }
 img {
     width: 250px
@@ -48,13 +60,23 @@ img {
 a {
     padding: .5em
 }
-
+p {
+    color: white;
+}
 h1 {
     text-align-last: center;
-    font-size: 8em;
-    
+    font-size: 7em;
+    color: white; 
+    font-family: 'Aref Ruqaa', serif;
+    margin-top: 10px;
+    line-height: 120px
+ 
 }
-
+figcaption {
+    color: white;
+    font-size: 2em;
+    font-family: 'Aref Ruqaa', serif;
+}
 .lg-backdrop {
     background: rgba(255,255,255,1);
 }
@@ -62,6 +84,8 @@ h1 {
 .lg-image {
     box-shadow: 0 0 30px #333;
 }
+
+
 
 /********************
 MEDIA QUERIES
